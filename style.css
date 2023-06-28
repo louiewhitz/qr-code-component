@@ -4,81 +4,71 @@
 
 body {
     margin: 0 auto;
-display: flex;
-
-padding: 152px 0px 151px 0px;
+    display: flex;
+    padding: 9.5em 0 9.5em 0;
     display: flex;
     justify-content: center;
     background: var(--light-grey, #D5E1EF);
-
 }
 
 .container {
-display: flex;
- max-width: 575px;
-width: 320px;
-height: 497px;
-margin: 0 auto;
-flex-shrink: 0;
-background: var(--white, #FFF);
-padding: 85px 27px 85px 28px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border-radius: 20px;
-
-background: var(--white, #FFF);
-box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
-
+    display: flex;
+    max-width: 36em;
+    width: 20em;
+    height: 31em;
+    margin: 0 auto;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+    padding: 5.5em 1.7em 5.7em 1.7em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25em;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.5625em 1.5625em 0px rgba(0, 0, 0, 0.05);
 }
 
 .qr-code {
-border-radius: 20px;
-width: 320px;
-height: 497px;
-text-align: center;
-
-
-
+    border-radius: 1.25em;
+    width: 20em;
+    height: 31em;
+    text-align: center;
 }
 
 .qr-code img {
- width: 288px;
- height: 288px;
- border-radius: 10%;
- background: #2C7DFA;
+    width: 18em;
+    height: 18em;
+    border-radius: 10%;
+    background: #2C7DFA;
 }
 
 h1 {
-color: var(--dark-navy, #1F314F);
+    color: var(--dark-navy, #1F314F);
     text-align: center;
-
-    /* Heading */
-    font-size: 22px;
+    font-size: 1.4em;
     font-family: Outfit;
     font-weight: 700;
 }
 
 p {
-color: var(--grey, #7D889E);
-text-align: center;
-/* Body */
-font-size: 15px;
-font-family: 'Outfit', sans-serif;
-letter-spacing: 0.188px;
+    color: var(--grey, #7D889E);
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    /* letter-spacing: 0.188em; */
 }
 
- .attribution {
-     font-size: 11px;
-     text-align: center;
- }
+.attribution {
+    font-size: 0.688em;
+    text-align: center;
+}
 
- .attribution a {
-     color: hsl(228, 45%, 44%);
- }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
- @media screen and (min-width: 768px) {
-  .container {
-    max-width: 900px;
-  }
+@media screen and (min-width: 48em) {
+    .container {
+        max-width: 56em;
+    }
 }
