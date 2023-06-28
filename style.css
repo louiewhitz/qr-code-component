@@ -11,7 +11,7 @@ body {
     background: var(--light-grey, #D5E1EF);
 }
 
-.main {
+main {
     display: flex;
     max-width: 36em;
     width: 20em;
