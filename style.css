@@ -18,13 +18,12 @@ body {
     height: 31em;
     margin: 0 auto;
     flex-shrink: 0;
-    background: var(--white, #FFF);
+    background: white;
     padding: 5.5em 1.7em 5.7em 1.7em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1.2em;
-    background: var(--white, #FFF);
     box-shadow: 0px 1.5625em 1.5625em 0px rgba(0, 0, 0, 0.05);
 }
 
